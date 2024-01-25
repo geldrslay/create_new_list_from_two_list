@@ -13,3 +13,9 @@ def create_new_list (number_list1, number_list2):
         # Check if numbers on the list are odd.
         if number %2 != 0:
             result_list.append(number)
+    # Reiterate the second list.
+    for number in number_list2:
+        # Check if numbers on the list are even. 
+        if number %2 == 0:
+            result_list.append(number)
+    return result_list
