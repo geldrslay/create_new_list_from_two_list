@@ -19,3 +19,7 @@ def create_new_list (number_list1, number_list2):
         if number %2 == 0:
             result_list.append(number)
     return result_list
+
+# Display the result 
+print ("The new list is:", create_new_list(number_list1, number_list2))
+
